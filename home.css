@@ -38,7 +38,7 @@ html  {
     width: 100%;
     height: 400px;
     display: flex;
-    background: url(images/navVine.png);
+    background: url(/images/navVine.png);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,18 +74,28 @@ html  {
     background-image: url(/images/resumeBtn.png);
  }
 
+
+
 ::-webkit-scrollbar {
     width: 20px;
+   background-color: #817038;
+   
 }
 
-::-webkit-scrollbar-track {
-    background-image: url(/images/scrollOuter.png);
-    background-size:auto;
+::-webkit-scrollbar-thumb {
+   background-color:#8B8D40 ;
+   border-radius: 25px;
+   border: 4px solid #817038;
 }
 
-::-webkit-scrollbar-track-piece {
-    background-image: url(/images/scrollInner.png);
+.divide {
+   width: 100%;
+   height: 20px;
+   background-color: #817038;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
+
 
 /* MAIN SECTION BELOW */
 

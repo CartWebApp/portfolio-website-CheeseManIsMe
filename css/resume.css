@@ -1,0 +1,132 @@
+/* TRANSERABLE STYLES BELOW */
+
+* {
+    margin: 0;
+}
+
+html  {
+    background-image: url(/images/paperbg.png);
+    background-repeat: repeat;
+    background-size: 306px;
+    width: 100%;
+    height: 100%;
+}
+
+ body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+ header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1043px;
+    height: 450px;
+    background-color: #8B8D40;
+    border-radius: 15px;
+    border: solid 10px #817038;
+    margin-top: 1%;
+ }
+
+ nav {
+    
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background: url(images/navVine.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    justify-content: space-around;
+ }
+
+ nav a {
+    position: relative;
+    margin-top: -.5%;
+    background-size:auto;
+    width: 200px;
+    height: 150px;
+    background-repeat: no-repeat;
+ }
+
+ .home{
+    background-image: url(/images/homeBtn.png);
+    margin-top: -4%;
+ }
+ .about {
+    background-image: url(/images/aboutBtn.png);
+    margin-top: -2.5%;
+ }
+ .contact {
+    background-image: url(/images/contactBtn.png);
+    margin-top: -2%;
+ }
+ .portfolio {
+    background-image: url(/images/portfolioBtn.png);
+ }
+ .resume {
+    background-image: url(/images/resumeBtn.png);
+ }
+
+
+
+::-webkit-scrollbar {
+    width: 20px;
+   background-color: #817038;
+   
+}
+
+::-webkit-scrollbar-thumb {
+   background-color:#8B8D40 ;
+   border-radius: 25px;
+   border: 4px solid #817038;
+}
+
+.divide {
+   width: 100%;
+   height: 20px;
+   background-color: #817038;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+
+/* MAIN SECTION BELOW */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1043px;
+    height: 450px;
+    background-color: #8B8D40;
+    border-radius: 15px;
+    border: solid 10px #817038;
+    margin-top: 1%;
+}
+
+
+
+
+
+/* FOOTER SECTION BELOW */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1043px;
+    height: 450px;
+    background-color: #8B8D40;
+    border-radius: 15px;
+    border: solid 10px #817038;
+    margin-top: 1%;
+}
